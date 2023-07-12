@@ -28,10 +28,11 @@ function TaskShow({ task, onDelete ,onUpdate}) {
           <p>{task.taskDesc}</p>
           <div>
             <button className="delete-button" onClick={handleDeleteClick}>
-              Sil 
+              Sil Butonu
             </button>
             <button className="update-button" onClick={handleEditCLick}>
               Güncelle butonu
+              {/* güncellediğimiz buton */}
             </button>
           </div>
         </div>
