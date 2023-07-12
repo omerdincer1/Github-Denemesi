@@ -47,7 +47,7 @@ function TaskCreate({ onCreate, task, taskFormUpdate,onUpdate }) {
             />
 
             <button className="task-button task-update" onClick={handleSubmit}>
-              Düzenleyiniz
+              Düzenleyiniz lütfen
             </button>
           </form>
         </div>

@@ -31,7 +31,7 @@ function TaskShow({ task, onDelete ,onUpdate}) {
               Sil 
             </button>
             <button className="update-button" onClick={handleEditCLick}>
-              Güncelle 
+              Güncelle butonu
             </button>
           </div>
         </div>
