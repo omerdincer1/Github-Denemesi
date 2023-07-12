@@ -1,0 +1,86 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.task-create-div{
+    width: 450px;
+}
+.task-create-update{
+    width: 100%;
+}
+.task-create-form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    
+}
+.task-label{
+    margin: 10px 0px;
+}
+.task-input{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.task-button{
+    margin: 10px 0px;
+    padding: 10px;
+    color: white;
+    border: 1px solid black;
+    background-color: green;
+    border-radius: 20px;
+    font-size: 20px;
+  
+}
+.task-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.task-show{
+    border: 1px solid green;
+    border-radius: 30px;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.delete-button{
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    width: 60px;
+    border: none;
+    border-radius: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.delete-button:active{
+    margin-top: 3px;
+}
+.update-button{
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    width: 100px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+.update-button:active{
+    background: RGB(30, 55, 185);
+    margin-top: 3px;
+}
+.task-update{
+    background-color: yellow;
+    color: black;
+}
+.taskshow-title{
+    margin-bottom: 5px;
+}
